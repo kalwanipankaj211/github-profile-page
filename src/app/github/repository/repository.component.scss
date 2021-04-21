@@ -1,0 +1,41 @@
+h4 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    color: #0366d9;
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.pin {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid rgb(172, 168, 168);
+}
+
+.star-button-section>.star-btn {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    height: 34px;
+    border: 1px solid rgb(100, 98, 98);
+    // &::after {
+    //     content: "";
+    //     display: block;
+    //     height: 2px;
+    //     background: #b9efc2;
+    //     margin-top: 20px;
+    // }
+}
+
+// .star-button-section>.star-line {
+//     height: 2px;
+//     width: 300px;
+//     background: #b9efc2;
+// }

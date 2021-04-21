@@ -1,0 +1,11 @@
+<app-navbar></app-navbar>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12">
+            <app-user-profile [userDetail]="userData" *ngIf="userData"></app-user-profile>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-12">
+            <app-tab></app-tab>
+        </div>
+    </div>
+</div>

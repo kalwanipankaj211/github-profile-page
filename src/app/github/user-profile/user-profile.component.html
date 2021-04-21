@@ -1,0 +1,22 @@
+<div class="user-section mt-3">
+    <div class="user-image-section">
+        <img [src]="userDetail.avatar_url" class="user-image" alt="user image">
+    </div>
+    <div class="user-details-section mt-3">
+        <div class="user-identity-section">
+            <h4>{{userDetail.name}}</h4>
+            <p>{{userDetail.bio.split('.')[0]}}</p>
+            <h4>Skills</h4>
+            <p>{{userDetail.bio.split('.')[1]}}</p>
+        </div>
+        <div class="edit-button">
+            <button type="button" class="btn btn-light edit-btn">Edit Profile</button>
+        </div>
+        <div class="user-other-section mt-3">
+            <ul class="user-list">
+                <li class="user-list-item"><i class="fa fa-map-marker list-fa"></i> {{userDetail.location}}</li>
+                <li class="user-list-item"><i class="fa fa-envelope list-fa"></i> {{userDetail.email ? userDetail.email : 'xyz@xyz.com'}} </li>
+            </ul>
+        </div>
+    </div>
+</div>

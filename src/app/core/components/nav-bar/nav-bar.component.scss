@@ -1,0 +1,52 @@
+.main-navbar {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    background-color: #fce38e;
+    ;
+    // background-image: url('../../../../assets/resources/images/banner.jpg');
+    // opacity: ;
+}
+
+.navlist {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.nav-item {
+    color: black;
+    padding-left: 70px;
+}
+
+.nav-link {
+    color: black !important;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+
+.zen-heading {
+    color: rgb(0, 0, 0);
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+
+.navbar-inverse {
+    z-index: 888888;
+    background-color: #f7f4f5;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, .175);
+}
+
+.subnav {
+    width: 100%;
+    background-color: white;
+    height: 210px;
+    position: fixed;
+    top: 60px;
+    // box-shadow: 2px 2px rgba(0, 0, 0, .175);
+}
+
+p {
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

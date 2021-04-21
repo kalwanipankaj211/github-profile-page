@@ -1,0 +1,62 @@
+.app-footer
+{
+    width:100%;
+    // min-height: 100%;
+    min-height: 250px;
+    height:auto;
+    background-color: black;
+    bottom:0px;
+    left: 0px;
+    // position: absolute;
+    position: static;
+
+
+}
+.footer-row
+{
+    // text-align: center;
+}
+// .footer-container
+// {
+//     margin: 12px;
+// }
+.connect-items
+{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    line-height: 2rem;
+}
+.connect-list
+{
+    list-style-type: none;
+    // outline: none;
+    // text-align: center;
+    // letter-spacing: 5px;
+    padding-left: 4px;
+}
+.connect-list a
+{
+    color: white;
+    text-decoration: none;
+
+}
+.connect-list a:hover{
+    color:  #007bff;
+}
+.connect-list i
+{
+    margin-right: 5px;
+}
+.zen-para
+{
+    // color: #5C5758;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+.zen-heading
+{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}

@@ -1,0 +1,40 @@
+.user-section {
+    margin: auto;
+    .user-image-section {
+        padding-left: 2.5rem !important;
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    }
+    .edit-button {
+        .edit-btn {
+            border: 1px solid rgb(168, 165, 165);
+            color: black;
+            font-weight: 400;
+            width: 80%;
+        }
+    }
+    .user-details-section {
+        padding-left: 2.5rem !important;
+    }
+    .user-other-section {
+        .user-list {
+            padding-left: 0px;
+            list-style-type: none;
+            .user-list-item {
+                .list-fa {
+                    color: #8a8484;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+    &::after {
+        content: "";
+        width: 2px;
+        height: 90%;
+        color: black;
+    }
+}
